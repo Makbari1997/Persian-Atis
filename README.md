@@ -12,7 +12,7 @@ relabel slot tags:
 
 
 ### Download Dataset
-We have published **Persian** and **English** datasets for download.
+There are Persian and English datasets available with splits and loading code.
 
 | dataset name | language   | train | dev   | test  |         
 | :----------- | :--------: | :---: | :---: | :---: | 
@@ -51,7 +51,7 @@ We have published **Persian** and **English** datasets for download.
 | Pre-trained        |JointBERT     |95.20   | **96.75**    | 
 
 ### Credit
-* The origin English dataset come from [ATIS DataSet by siddhadev](https://www.kaggle.com/siddhadev/atis-dataset)
+* English dataset derived from [ATIS DataSet by siddhadev](https://www.kaggle.com/siddhadev/atis-dataset)
 
 ---
 ### Citing & Authors
