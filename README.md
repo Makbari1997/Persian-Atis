@@ -3,10 +3,10 @@ We present the first publicly available benchmark in the Persian language for in
 
 ---
 An example of supplants of words after translation and the need to
-relabel slot tags
-![An example of supplants of words after translation and the need to
-relabel slot tags](figs/overview.png)
-
+relabel slot tags:
+<p align="center">
+<img src="https://github.com/Makbari1997/Persian-Atis/blob/main/figure.png"  width="50%"  height="30%">
+</p>
 ---
 
 ### Dataset - Raw format
