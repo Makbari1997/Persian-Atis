@@ -17,10 +17,10 @@ test
 ### Download Dataset
 We have published **Persian** and **English** datasets for download.
 
-| dataset name | language   | train | dev   | test  | link   |           
-| :----------- | :--------: | :---: | :---: | :---: | :----: |
-| ATIS         | `en`       | ✔     | ✔    | ✔     | [LINK](https://test.com)  |
-| PATIS        | `fa`       | ✔     | ✔    | ✔     | [LINK](https://test.com)  |
+| dataset name | language   | train | dev   | test  |         
+| :----------- | :--------: | :---: | :---: | :---: | 
+| ATIS         | `en`       | ✔     | ✔    | ✔     | 
+| PATIS        | `fa`       | ✔     | ✔    | ✔     |
 
 
 ### Credit
