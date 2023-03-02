@@ -9,10 +9,7 @@ relabel slot tags:
 </p>
 ---
 
-### Dataset - Raw format
-```text
-test
-```
+
 
 ### Download Dataset
 We have published **Persian** and **English** datasets for download.
@@ -22,6 +19,36 @@ We have published **Persian** and **English** datasets for download.
 | ATIS         | `en`       | ✔     | ✔    | ✔     | 
 | PATIS        | `fa`       | ✔     | ✔    | ✔     |
 
+### Results
+**Intent accuracy** percent of state-of-the-art models on English and Persian ATIS dataset
+
+| Taxonomy | Model  | English | Persian   |        
+| :----------- | :--------: | :---: | :---: |
+| Single         |CNN-LSTM-CRF       | 93.62    |89.70   | 
+| Joint        |CNN-LSTM-CRF      | 93.73     | 91.83    | 
+| Joint        |Attention RNN     | 93.84    | 90.93    | 
+| Joint        |Slot-Gated     |94.62    | 94.62    | 
+| Joint        |SF-ID,SF-first  |96.65     | 92.38    | 
+| Joint        | SF-ID+CRF,SF-first      |97.31   | 97.31   | 
+| Joint        |SF-ID,ID-first      |97.09    | 97.09 | 
+| Joint        |SF-ID+CRF,ID-first    |95.41    | 92.05   | 
+| Joint        | Co-Interactive transformer (Glove)  | **97.54** | 91.83    | 
+| Pre-trained        |JointBERT     | 97.42    | **97.65**    | 
+
+
+**Slot F1-Score** of sate-of-the-art models on English and Persian ATIS dataset
+| Taxonomy | Model  | English | Persian   |        
+| :----------- | :--------: | :---: | :---: |
+| Single         |CNN-LSTM-CRF       |94.46    |88.41   | 
+| Joint        |CNN-LSTM-CRF      |85.31     |81.68    | 
+| Joint        |Attention RNN     |95.59   |87.96    | 
+| Joint        |Slot-Gated     |94.91    |87.70   | 
+| Joint        |SF-ID,SF-first  |94.65   | 85.38    | 
+| Joint        | SF-ID+CRF,SF-first      |94.72 | 85.56   | 
+| Joint        |SF-ID,ID-first      |95.06   |85.32| 
+| Joint        |SF-ID+CRF,ID-first    |94.55   | 85.57   | 
+| Joint        | Co-Interactive transformer (Glove)  | **95.69** | 86.14    | 
+| Pre-trained        |JointBERT     |95.20   | **96.75**    | 
 
 ### Credit
 * The origin English dataset come from [ATIS DataSet by siddhadev](https://www.kaggle.com/siddhadev/atis-dataset)
